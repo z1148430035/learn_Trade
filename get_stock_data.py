@@ -19,6 +19,7 @@ def getStockData(stratDate,endData,stock_code):
         df['high'] = data['high']
         df['low'] = data['low']
         df['turnover'] = data['turnover']
+        #此处修改要添加的列
         print("数据成功获取")
         return data,df
        
